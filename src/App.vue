@@ -18,7 +18,7 @@
         </section>
       </article>
       <!--MENU-->
-      <article class=" bg-white mx-5 my-5 pt-5 rounded-md menu-shadow" v-show="menu">
+      <article class=" bg-white mx-5 my-5 pt-5 rounded-md menu-shadow sticky z-10" v-show="menu">
         <ul class=" pb-1">
         
         <!--Product-->
@@ -71,9 +71,46 @@
           <button class=" font-overpass text-lg font-semibold text-white bg-gradient-to-r from-grad-a1 to-grad-a2 mx-auto mb-10 py-2 px-6 rounded-full">Sign Up</button>
         </footer>
       </article>
-
-
     </header>
+
+    <main class=" mt-20">
+      <h3 class=" font-overpass font-semibold text-center text-2xl text-blue px-12">Designed for the future</h3>
+      <img class=" mt-10" src="../blogr-landing-page-main/images/illustration-editor-mobile.svg" alt="">
+
+        <h3 class="font-overpass font-semibold text-center text-2xl text-blue px-12 mt-10">Introducing an extensible editor</h3>
+        <p class=" font-overpass text-base opacity-80 text-center text-darker mt-2 px-9">Blogr features an exceedingly intuitive
+          interface which lets you focus on one thing:
+          creating content. The editor supports
+          management of multiple blogs and allows easy
+          manipulation of embeds such as images, videos
+          and Markdown. Extensibility with plugins and 
+          themes provide easy ways to add functionality
+          or change the looks of a blog.
+        </p>
+
+        <h3 class="font-overpass font-semibold text-center text-2xl text-blue px-12 mt-10">Robust content management</h3>
+        <p class="font-overpass text-base opacity-80 text-center text-darker mt-2 px-9">
+          Flexible content management enables users
+          users to easily move through posts. Increase
+          the usability of your blog by adding customuzed
+          catogories, sections, format, or flow. With this
+          functionality, you're in full control.
+
+        </p>
+      
+        <img class=" sticky" src="../blogr-landing-page-main/images/illustration-phones.svg" alt="">
+        <div class=" my-40 bg-gradient-to-b from-grad-b1 to-grad-b2">
+          <h2>State of the Art Infrastructure</h2>
+          <p>
+            With reliability and speed in mind,
+            worldwide data centers provide the 
+            backbone for ultra-fast connectivity.
+            This ensures your site will load
+            instantly, no matter where your readers
+            are, keeping your site competitive.
+          </p>
+        </div>
+    </main>
 
   </body>
 </template>
