@@ -12,8 +12,13 @@
     }
 
     .background-mobile-phone{
-        background: url('../blogr-landing-page-main/images/bg-pattern-circles.svg') 10%
+        background: url('../blogr-landing-page-main/images/bg-pattern-circles.svg') 50% 100% no-repeat , linear-gradient(to bottom right, #2c2d3f, #3f4164);
+
+        
+        
+        
     }
+
 
     .menu-shadow {
         box-shadow: 0px 4px 8px 3px rgba(0,0,0,0.3)

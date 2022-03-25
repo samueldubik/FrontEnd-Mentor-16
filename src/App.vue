@@ -75,7 +75,7 @@
 
     <main class=" mt-20">
       <h3 class=" font-overpass font-semibold text-center text-2xl text-blue px-12">Designed for the future</h3>
-      <img class=" mt-10" src="../blogr-landing-page-main/images/illustration-editor-mobile.svg" alt="">
+      <img class=" mt-10 mx-auto" src="../blogr-landing-page-main/images/illustration-editor-mobile.svg" alt="">
 
         <h3 class="font-overpass font-semibold text-center text-2xl text-blue px-12 mt-10">Introducing an extensible editor</h3>
         <p class=" font-overpass text-base opacity-80 text-center text-darker mt-2 px-9">Blogr features an exceedingly intuitive
@@ -97,11 +97,11 @@
           functionality, you're in full control.
 
         </p>
-      
-        <img class=" sticky" src="../blogr-landing-page-main/images/illustration-phones.svg" alt="">
-        <div class=" my-40 bg-gradient-to-b from-grad-b1 to-grad-b2">
-          <h2>State of the Art Infrastructure</h2>
-          <p>
+
+        <img class=" sticky mx-auto mb-[-55vh] mt-20 z-10" src="../blogr-landing-page-main/images/illustration-phones.svg" alt="">
+        <div class=" z-0 mt-40 background-mobile-phone rounded-tr-[6rem] rounded-bl-[6rem] relative">
+          <h2 class=" font-overpass font-light px-10 text-white text-center text-3xl pt-60">State of the Art Infrastructure</h2>
+          <p class=" font-overpass text-white text-center px-10 pb-20 mt-10 opacity-80">
             With reliability and speed in mind,
             worldwide data centers provide the 
             backbone for ultra-fast connectivity.
@@ -110,8 +110,51 @@
             are, keeping your site competitive.
           </p>
         </div>
-    </main>
+        
+        <img class=" mt-10 mx-auto " src="../blogr-landing-page-main/images/illustration-laptop-mobile.svg" alt="">
 
+
+        <h3 class="font-overpass font-semibold text-center text-2xl text-blue px-12 mt-10">Free, open, simple</h3>
+        <p class=" font-overpass text-base  text-center text-darker mt-2 px-9">Blogr features an exceedingly intuitive
+        Blogr is a free and open source application backed by a large community of helpful developers. It supports features such as
+        code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, and works seamlessly with Google 
+        Analytics. The architecture is clean and is relatively easy to learn.
+        </p>
+
+        <h3 class="font-overpass font-semibold text-center text-2xl text-blue px-12 mt-10">Powerful tooling</h3>
+        <p class=" font-overpass text-base  text-center text-darker mt-2 px-9">
+        Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but capable
+        of producing even the most complicated sites.
+        </p>
+    </main>
+    <footer class=" text-white bg-darker mt-20 py-20 text-center rounded-tr-[6rem]">
+    <h1 class=" text-white font-overpass text-3xl font-semibold">Blogr</h1>
+    
+    <h2 class=" mt-10">Product</h2>
+    
+    <div class=" mt-5 opacity-80">
+      <h3 class=" cursor-pointer mt-2">Overview</h3>
+      <h3 class=" cursor-pointer mt-2">Pricing</h3>
+      <h3 class=" cursor-pointer mt-2" >Marketplace</h3>
+      <h3 class=" cursor-pointer mt-2">Features</h3>
+      <h3 class=" cursor-pointer mt-2">Integrations</h3>
+    </div>
+
+    <h2 class=" mt-10">Company</h2>
+    <div class=" mt-5 opacity-80">
+      <h3 class=" cursor-pointer mt-2">About</h3>
+      <h3 class=" cursor-pointer mt-2">Team</h3>
+      <h3 class=" cursor-pointer mt-2">Blog</h3>
+      <h3 class=" cursor-pointer mt-2">Careers</h3>
+    </div>
+
+    <h2 class=" mt-10">Connect</h2>
+    <div class=" mt-5 opacity-80">
+      <h3 class=" cursor-pointer mt-2">Contact</h3>
+      <h3 class=" cursor-pointer mt-2">Newsletter</h3>
+      <h3 class=" cursor-pointer mt-2">LinkedIn</h3>
+    </div>
+    </footer>
   </body>
 </template>
 
