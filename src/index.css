@@ -7,21 +7,62 @@
 
 @layer base {
 
+
+    h4 {
+        @apply mr-5 text-white opacity-70 font-ubuntu font-bold text-base cursor-pointer hover:opacity-100;
+    }
+
+    a {
+        @apply font-overpass font-light hover:font-semibold
+    }
+
+    
+
+    .desktop-nav {
+        @apply hidden w-3/5 lg:flex;
+    }
+
+
+    .desktop-nav > li {
+        @apply w-[25%] max-w-[125px] text-center;
+    }
+
+    
+    .desktop-nav > li > ul {
+        @apply bg-white mt-10 p-5 rounded-md shadow-lg -ml-5 w-[125px]; 
+    }
+
+
+
+
     .background-mobile {
         background: url('../blogr-landing-page-main/images/bg-pattern-intro-mobile.svg')  36% 33%, linear-gradient(to bottom right, #ff8f70,#ff3d54);
     }
 
     .background-mobile-phone{
-        background: url('../blogr-landing-page-main/images/bg-pattern-circles.svg') 50% 100% no-repeat , linear-gradient(to bottom right, #2c2d3f, #3f4164);
-
-        
-        
-        
+        background: url('../blogr-landing-page-main/images/bg-pattern-circles.svg') -25vw -25vh no-repeat , linear-gradient(to bottom right, #2c2d3f, #3f4164);
+        background-size: 150%, 100% 
     }
 
+    .background-desktop {
+        background: url('../blogr-landing-page-main/images/bg-pattern-intro-desktop.svg')  30% 50%, linear-gradient(to right, #ff8f70,#ff3d54);
+    }
 
     .menu-shadow {
         box-shadow: 0px 4px 8px 3px rgba(0,0,0,0.3)
 
     }
+
+    nav > button {
+        @apply font-ubuntu text-white font-semibold text-lg
+    }
+
+    nav > button:last-child {
+        @apply bg-white text-red w-24 h-8 text-center justify-center rounded-full ml-5 hover:bg-light-red hover:text-white;
+    }
+
+    /* Animations */
+
+    
+
 }
