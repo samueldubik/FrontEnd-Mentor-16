@@ -161,49 +161,63 @@
           </p>
         </div>
         
-        <img class=" mt-10 mx-auto " src="../blogr-landing-page-main/images/illustration-laptop-mobile.svg" alt="">
+        <img class=" mt-10 mx-auto lg:hidden " src="../blogr-landing-page-main/images/illustration-laptop-mobile.svg" alt="">
+        
+        <article class=" lg:flex lg:mt-28">
+        <img class="hidden lg:flex lg:ml-[-20vw]" src="../blogr-landing-page-main/images/illustration-laptop-desktop.svg">
 
+        <section class=" lg:mt-48">
+          <h3 class="font-overpass font-semibold text-center text-2xl text-blue px-12 mt-10 lg:text-left lg:px-9">Free, open, simple</h3>
+          <p class=" font-overpass text-base  text-center text-darker mt-2 px-9 lg:text-left lg:w-3/4 ">Blogr features an exceedingly intuitive
+          Blogr is a free and open source application backed by a large community of helpful developers. It supports features such as
+          code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, and works seamlessly with Google 
+          Analytics. The architecture is clean and is relatively easy to learn.
+          </p>
 
-        <h3 class="font-overpass font-semibold text-center text-2xl text-blue px-12 mt-10">Free, open, simple</h3>
-        <p class=" font-overpass text-base  text-center text-darker mt-2 px-9">Blogr features an exceedingly intuitive
-        Blogr is a free and open source application backed by a large community of helpful developers. It supports features such as
-        code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, and works seamlessly with Google 
-        Analytics. The architecture is clean and is relatively easy to learn.
-        </p>
-
-        <h3 class="font-overpass font-semibold text-center text-2xl text-blue px-12 mt-10">Powerful tooling</h3>
-        <p class=" font-overpass text-base  text-center text-darker mt-2 px-9">
-        Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but capable
-        of producing even the most complicated sites.
-        </p>
+          <h3 class="font-overpass font-semibold text-center text-2xl text-blue px-12 mt-10 lg:text-left lg:px-9">Powerful tooling</h3>
+          <p class=" font-overpass text-base  text-center text-darker mt-2 px-9 lg:w-3/4 lg:text-left">
+          Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but capable
+          of producing even the most complicated sites.
+          </p>
+        </section>
+        </article>
     </main>
-    <footer class=" text-white bg-darker mt-20 py-20 text-center rounded-tr-[6rem]">
-    <h1 class=" text-white font-overpass text-3xl font-semibold">Blogr</h1>
+    <footer class=" text-white bg-darker mt-20 py-20 text-center rounded-tr-[6rem] lg:flex lg:justify-evenly">
+    <h1 class=" text-white font-overpass text-3xl font-semibold lg:text-4xl lg:mt-7 ">Blogr</h1>
     
-    <h2 class=" mt-10">Product</h2>
-    
-    <div class=" mt-5 opacity-80">
-      <h3 class=" cursor-pointer mt-2">Overview</h3>
-      <h3 class=" cursor-pointer mt-2">Pricing</h3>
-      <h3 class=" cursor-pointer mt-2" >Marketplace</h3>
-      <h3 class=" cursor-pointer mt-2">Features</h3>
-      <h3 class=" cursor-pointer mt-2">Integrations</h3>
-    </div>
+    <section class=" lg:text-left">
+      <h2 class=" mt-10">Product</h2>
+      
+      <div class=" mt-5 opacity-80">
+        <h3 class=" cursor-pointer mt-2">Overview</h3>
+        <h3 class=" cursor-pointer mt-2">Pricing</h3>
+        <h3 class=" cursor-pointer mt-2" >Marketplace</h3>
+        <h3 class=" cursor-pointer mt-2">Features</h3>
+        <h3 class=" cursor-pointer mt-2">Integrations</h3>
+      </div>
+    </section>
 
-    <h2 class=" mt-10">Company</h2>
-    <div class=" mt-5 opacity-80">
-      <h3 class=" cursor-pointer mt-2">About</h3>
-      <h3 class=" cursor-pointer mt-2">Team</h3>
-      <h3 class=" cursor-pointer mt-2">Blog</h3>
-      <h3 class=" cursor-pointer mt-2">Careers</h3>
-    </div>
+    <section class=" lg:text-left">
+      <h2 class=" mt-10">Company</h2>
 
-    <h2 class=" mt-10">Connect</h2>
-    <div class=" mt-5 opacity-80">
-      <h3 class=" cursor-pointer mt-2">Contact</h3>
-      <h3 class=" cursor-pointer mt-2">Newsletter</h3>
-      <h3 class=" cursor-pointer mt-2">LinkedIn</h3>
-    </div>
+      <div class=" mt-5 opacity-80">
+        <h3 class=" cursor-pointer mt-2">About</h3>
+        <h3 class=" cursor-pointer mt-2">Team</h3>
+        <h3 class=" cursor-pointer mt-2">Blog</h3>
+        <h3 class=" cursor-pointer mt-2">Careers</h3>
+      </div>
+    </section>
+
+    <section class=" lg:text-left">
+      <h2 class=" mt-10">Connect</h2>
+
+      <div class=" mt-5 opacity-80">
+        <h3 class=" cursor-pointer mt-2">Contact</h3>
+        <h3 class=" cursor-pointer mt-2">Newsletter</h3>
+        <h3 class=" cursor-pointer mt-2">LinkedIn</h3>
+      </div>
+    </section>
+
     </footer>
   </body>
 </template>
